@@ -1,3 +1,3 @@
 # SWKey
 
-(http://7xsmaf.com2.z0.glb.clouddn.com/key1.gif "预览效果")
+ ![image](http://7xsmaf.com2.z0.glb.clouddn.com/key1.gif)

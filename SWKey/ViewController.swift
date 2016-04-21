@@ -19,9 +19,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor.cyanColor()
         //初始化UI
         initSubView()
-    
+
     }
 
     func initSubView() {
@@ -36,10 +37,11 @@ class ViewController: UIViewController {
             okButton?.setTitle("重新生成", forState: UIControlState.Normal)
             okButton?.addTarget(self, action: #selector(self.randNum), forControlEvents: UIControlEvents.TouchUpInside)
             okButton?.frame = CGRectMake((Width_Screen-100)/2, 260, 100, 40);
-            okButton?.setTitleColor(UIColor.grayColor(), forState: UIControlState.Normal)
+            okButton?.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
             okButton?.layer.cornerRadius = 8
             okButton?.layer.masksToBounds = true
-            okButton?.titleLabel?.font = UIFont.systemFontOfSize(16)
+            okButton?.titleLabel?.font = UIFont.systemFontOfSize(18)
+            okButton?.backgroundColor = UIColor.blackColor()
             self.view.addSubview(okButton!)
         }
         
